@@ -20,10 +20,9 @@ alias ...='cd ../../'                       # Go back 2 directory levels
 # util
 alias weather="curl -s wttr.in/10019?2n 2> /dev/null | head -n27"
 
-# fubo.tv
-alias few="cd ~/Documents/fubotv/frontend-web"
-alias api="cd ~/Documents/fubotv/api-client"
-alias player="cd ~/Documents/fubotv/player/"
-alias playerios="cd ~/Documents/fubotv/player_ios"
-
 export PATH="$PATH:`yarn global bin`"
+
+if [ ./.fuborc ]; then
+  source ./.fuborc
+fi
+
