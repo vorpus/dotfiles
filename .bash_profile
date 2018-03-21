@@ -18,9 +18,9 @@ alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
 
 # util
-alias weather="curl wttr.in/10019"
+alias weather="curl -s wttr.in/10019?2n 2> /dev/null | head -n27"
 
-# fub.tv
+# fubo.tv
 alias few="cd ~/Documents/fubotv/frontend-web"
 alias api="cd ~/Documents/fubotv/api-client"
 alias player="cd ~/Documents/fubotv/player/"

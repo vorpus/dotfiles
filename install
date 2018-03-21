@@ -9,3 +9,5 @@ cd "$ROOT"
 ln -sf "$ROOT/.vimrc" ~/.vimrc
 ln -sf "$ROOT/.bash_profile" ~/.bash_profile
 ln -sf "$ROOT/.bashrc" ~/.bashrc
+sudo ln -sf "$ROOT/.vim/" ~
+
