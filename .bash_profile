@@ -22,7 +22,5 @@ alias weather="curl -s wttr.in/10019?2n 2> /dev/null | head -n27"
 
 export PATH="$PATH:`yarn global bin`"
 
-if [ ./.fuborc ]; then
-  source ./.fuborc
-fi
+source ~/dotfiles/.fuborc
 
