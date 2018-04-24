@@ -6,8 +6,8 @@ set -e
 set -x
 
 cd "$ROOT"
-ln -sf "$ROOT/.vimrc" ~/.vimrc
-ln -sf "$ROOT/.bash_profile" ~/.bash_profile
-ln -sf "$ROOT/.bashrc" ~/.bashrc
-sudo ln -sf "$ROOT/.vim/" ~
+ln -shf "$ROOT/.vimrc" ~/.vimrc
+ln -shf "$ROOT/.bash_profile" ~/.bash_profile
+ln -shf "$ROOT/.bashrc" ~/.bashrc
+sudo ln -shf "$ROOT/.vim/" ~
 
