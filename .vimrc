@@ -7,6 +7,8 @@ set hlsearch
 set cursorline
 set ruler
 set incsearch
+set expandtab
+set tabstop=2
 
 " NERDTree
 set runtimepath+=~/.vim/bundle/nerdtree
