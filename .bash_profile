@@ -21,6 +21,9 @@ alias ...='cd ../../'                       # Go back 2 directory levels
 alias weather="curl -s wttr.in/10019?2n 2> /dev/null | head -n27"
 
 export PATH="$PATH:`yarn global bin`"
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH # Homebrew path
 
 for f in ~/.profile_*; do source $f; done
 
+# added by Anaconda3 5.1.0 installer
+export PATH="/Users/lii/anaconda3/bin:$PATH"
